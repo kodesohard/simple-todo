@@ -4,7 +4,7 @@
 
 Submitted by: **Dehang Zheng**
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -41,7 +41,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** 
 Fairly straight forward for a simple app like this. I'm typically not very familiar with frontend development so I get the same impression in Android when it comes to layout and designs. 
 I feel it's super important to have well designed wireframes when working on mobile app since a great looking UI can go a long way
 on a small screen. I also can see lots of challenges when dealing different device versions. Getting a functioning app on the
@@ -50,11 +50,14 @@ is also subject to system resource constraints such as memory, network, processo
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** 
+ArrayAdapter is used to allow the data to map to the ListView. It translates the data into views. ConvertView is used as the old view for performance reasons so as ListView loads it can use the old view if possible. 
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Layout issues are confusing since I had issues displaying correctly on a smaller screen size. I think it was tougher to work with the layout.xml compared to the concepts we used in the java code. 
+
 
 ## License
 
